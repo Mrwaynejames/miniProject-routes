@@ -31,7 +31,7 @@ fb.post('/', (req, res) => {
 
     res.json(response);
   } else {
-    res.json('Error in posting feedback');
+    res.json('*');
   }
 });
 
